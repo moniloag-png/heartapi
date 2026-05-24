@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Implementamos css-->
+    <link rel="stylesheet" href="estilos/estilos.css">    
+    <title>Proyecto Machine Learning</title>
+</head>
+<body>
+    <!--Creamos un contenedor div que va a contener el formulario-->
+    <div class="container">
+        <h2>Predicción ML Heart Disease</h2>
+        <!--Implementamos el formulario-->
+        <form action="/predict" method="post"></form>
+
+            <input type="number" name="atributo1" id="atributo1" placeholder="Edad" required step="any">
+            <input type="number" name="atributo2" id="atributo2" placeholder="Sexo (1=masc, 0=fem)" required step="any">
+            <input type="number" name="atributo3" id="atributo3" placeholder="Presión arterial en reposo" required step="any">
+            <input type="number" name="atributo4" id="atributo4" placeholder="Colesterol sérico en mg/dl" required step="any">
+            <input type="number" name="atributo5" id="atributo5" placeholder="Frecuencia cardíaca máxima alcanzada" required step="any">
+            <input type="number" name="atributo6" id="atributo6" placeholder="Depresion del ST" required step="any">
+            <input type="number" name="atributo7" id="atributo7" placeholder="Tipo de dolor torácico (0 a 3)" required step="any">
+            <input type="number" name="atributo8" id="atributo8" placeholder="Azúcar en sangre en ayunas > 120 mg/dl (1=True, 0=False)" required step="any">
+            <input type="number" name="atributo9" id="atributo9" placeholder="Electrocardiograma en Reposo" required step="any">
+            <input type="number" name="atributo10" id="atributo10" placeholder="Angina Inducida por Ejercicio" required step="any">
+            <input type="number" name="atributo11" id="atributo11" placeholder="Pendiente del Segmento ST" required step="any">
+            <input type="number" name="atributo12" id="atributo12" placeholder="Vasos Coloreados por Fluoroscopia" required step="any">
+            <input type="number" name="atributo13" id="atributo13" placeholder="Resultado de Thalassemia" required step="any">
+
+            <!--Implementamos un botón-->
+            <button type="submit">Predecir</button>
+            
+        </form>
+        <!--Implementamos el resultado de la predicción-->
+        <div class="Resultado">
+            <h3>Resultado</h3>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>

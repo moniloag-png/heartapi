@@ -1,0 +1,59 @@
+/*
+Tipos de selectores: Universal, Etiqueta, Clase, id*/
+
+/*Le damos estilos al body*/
+body {
+    /*Tipo de letra*/
+    font-family: Arial;
+    /*Color de fonde del body*/
+    background: rgb(219, 219, 171);
+    /*Márgenes internos del contenedor body*/
+    padding: 40px;
+}
+
+/*Dar estilos al contenedor con la clase container*/
+.contanier {
+    /*Ancho del contenedor*/
+    width: 400px;
+    /*Centrar el formulario en la pantalla*/
+    margin: auto;
+    /*Dar color al contenedor*/
+    background: rgb(197, 61, 43);
+    /*Bordes internos*/
+    padding: 30px;
+    /*Borde redondeado*/
+    border-radius: 10px;
+
+}
+
+/*Dar estilo a nuetros inputs*/
+input{
+    /*le damos el ancho al input utilizamos medidas relativas: Dentro de css existen 2 tipos de medidas
+    relativas: cambian a conveniencia del tamaño de la pantalla, para estas medidas usamos el %,
+    absolutas: no cambian, el tamaño de los componentes están siempre fijos y no importa el tamaño de la pantalla*/
+    width: 100%;
+    /*Bordes internos*/
+    padding: 10px;
+    /*Márgenes superiores*/
+    margin-top: 5px;
+}
+/*le damos estilos al botón*/
+button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #a5a12c;
+    /*le damos color a la letra*/
+    color: white;
+    /*quito los bordes*/
+    border: none;
+    /*cambio del tipo de cursor*/
+    cursor: pointer;
+}
+/*le damos estilos al contenerdor donde se muestra el resultado*/
+.resultado{
+    margin-top: 20px;
+    background: #659757;
+    padding: 15px;
+    border-radius: 5px;
+}   

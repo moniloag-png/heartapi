@@ -6,19 +6,19 @@ body {
     /*Tipo de letra*/
     font-family: Arial;
     /*Color de fonde del body*/
-    background: rgb(219, 219, 171);
+    background: rgb(255, 253, 208);
     /*Márgenes internos del contenedor body*/
     padding: 40px;
 }
 
 /*Dar estilos al contenedor con la clase container*/
-.contanier {
+.container {
     /*Ancho del contenedor*/
-    width: 400px;
+    width: 500px;
     /*Centrar el formulario en la pantalla*/
     margin: auto;
     /*Dar color al contenedor*/
-    background: rgb(197, 61, 43);
+    background: rgb(254, 243, 171);
     /*Bordes internos*/
     padding: 30px;
     /*Borde redondeado*/
@@ -42,7 +42,7 @@ button{
     margin-top: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #a5a12c;
+    background: rgb(182, 161, 80);
     /*le damos color a la letra*/
     color: white;
     /*quito los bordes*/
@@ -53,7 +53,7 @@ button{
 /*le damos estilos al contenerdor donde se muestra el resultado*/
 .resultado{
     margin-top: 20px;
-    background: #659757;
+    background: rgb(216, 211, 120);
     padding: 15px;
     border-radius: 5px;
 }   

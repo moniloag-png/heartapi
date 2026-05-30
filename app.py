@@ -21,10 +21,6 @@ app = FastAPI()
 # Crear enlace a la carpeta static o montamos la carpeta static
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-
-#  Crear enlace a la carpeta static o montamos la carpeta static
-app.mount("/static", StaticFiles(directory="static"), name="static")
-
 # Creamos el template que se va a ejecutar cuando levantemos el servicio y entramos al backend
 templates = Jinja2Templates(directory="templates")
 
